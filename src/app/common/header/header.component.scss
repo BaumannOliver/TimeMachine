@@ -1,0 +1,14 @@
+@import "../../../styles/_vars";
+
+mat-toolbar {
+  background-color: $darkBlue;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+}
+.title {
+  flex-grow: 2;
+  text-align: center;
+  font-size: $bigFont;
+}
